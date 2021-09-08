@@ -1,0 +1,275 @@
+.contact {
+    max-width: 100vw;
+    min-height: 60vh;
+    background-image: linear-gradient(to right ,#3C3B3F,#605C3C);
+    
+}
+
+.contact__success{
+    color: rgb(34, 179, 29);
+    font-size: large;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.contact__error{
+    color: rgb(207, 36, 36);
+    font-size: large;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.contact h2 {
+    padding-top: 10px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.contact__centered{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact__left{
+    max-width: 80vw;
+    height: auto;
+}
+
+.contact__right{
+    max-width: 50vw;
+    min-height: 40vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact__right a{
+    text-decoration: none;
+}
+
+
+.contact__form {
+    min-width: 40vw;
+    margin: 7rem;
+    /* border-right: 2px dashed white; */
+}
+
+.contact__form label{
+    display: block;
+    width: 100%;
+    padding: 0.25rem;
+    color: rgb(255, 255, 255);
+    margin-top: 0.25rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.contact__form input, .contact__form textarea {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0.25rem;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: rgb(0, 0, 0);
+    border: double 0.1em transparent;
+    border-radius: 30px;
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(to right,#605C3C , #3C3B3F);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    outline: none;
+}
+
+.contact__form textarea {
+    height: auto;
+}
+
+.contact__form button {
+    display: block;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+    background-color: #888255;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact__oval1{
+    width: 50%;
+    height: 22%;
+    background: #222222de;
+    margin: 0% 0% -9% 5%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    align-self: self-start;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__oval2{
+    width: 50%;
+    height: 22%;
+    background: #222222de;
+    margin: 2% -16% 0% 0%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__oval3{
+    width: 50%;
+    height: 22%;
+    background: #222222de;
+    margin: -2% 20% 0% 0%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.contact__para{
+    font-size: larger;
+    font-weight: bolder;
+    color: #5e5a3c;
+    
+
+}
+
+/* .contact__ovalcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+@media screen and (max-width:1250px) {
+    .contact__centered{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact__right{
+        width: 100vw;
+        height: 70vh;
+        max-width: none;
+        min-height: 40vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .contact__form {
+        min-width: 40vw;
+        margin: 4rem 0 4rem 0;
+        /* border-right: 2px dashed white; */
+    }
+
+
+    .contact__oval1{
+        width: 50%;
+        height: 40%;
+        background: #222222de;
+        margin: 0% 0% -3% 0%;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact__oval2{
+        width: 50%;
+        height: 40%;
+        background: #222222de;
+        margin: 0% 0% -3% 0%;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact__oval3{
+        width: 50%;
+        height: 40%;
+        background: #222222de;
+        margin: 0% 0% 6% 0%;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+
+@media screen and (max-width:400px) {
+
+    
+    .contact__oval1{
+        width: 70%;
+        height: 40%;
+        background: #222222de;
+        margin: 0% 0% -3% 0%;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact__oval2{
+        width: 70%;
+        height: 40%;
+        background: #222222de;
+        margin: 0% 0% -3% 0%;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact__oval3{
+        width: 70%;
+        height: 40%;
+        background: #222222de;
+        margin: 0% 0% 6% 0%;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,105 @@
+.header{
+    max-width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #59EFCB,blueviolet);
+}
+
+.header__title{
+    text-align: center;
+     padding-top: 350px; 
+     color:white;
+    font-size: 120px;
+
+}
+
+.header__para{
+    text-align: center;
+     padding-top: 20px;
+     color:white;
+    font-size: 50px;
+
+}
+
+.header__smallpara{
+    text-align: center;
+    padding-top: 180px;
+    color:white;
+   font-size: 20px;
+}
+
+.header__symbol{
+    position: relative;
+    animation-name: symbolDown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes symbolDown {
+    0%   { top:0px;}
+    50%  {top:20px;}
+    100% {top:0px;}
+  }
+
+.header__symbolDown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:750px){
+    
+    .header__title{
+        text-align: center;
+         padding-top: 100px;
+         color:white;
+        font-size: 80px;
+    
+    }
+
+    .header__para{
+        text-align: center;
+         padding-top: 20px;
+         color:white;
+        font-size: 35px;
+    
+    }
+    
+    .header__smallpara{
+        text-align: center;
+        padding-top: 150px;
+        color:white;
+       font-size: 15px;
+
+    }
+    
+}
+
+@media screen and (max-height:800px) 
+{
+    .header__title{
+        text-align: center;
+         padding-top: 100px;
+         color:white;
+        font-size: 70px;
+    
+    }
+
+    .header__para{
+        text-align: center;
+         padding-top: 10px;
+         color:white;
+        font-size: 20px;
+    
+    }
+    
+    .header__smallpara{
+        text-align: center;
+        padding-top: auto;
+        color:white;
+       font-size: 15px;
+
+    }
+}
