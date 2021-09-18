@@ -27,6 +27,34 @@
    font-size: 20px;
 }
 
+.header__download{
+  display: flex;
+  justify-content: center;
+}
+
+.header__download a{
+    text-align: center;
+    width: fit-content;
+    margin-top: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.header__download a:hover{
+    text-align: center;
+    width: fit-content;
+    margin-top: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .header__symbol{
     position: relative;
     animation-name: symbolDown;
