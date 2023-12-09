@@ -1,0 +1,92 @@
+.myjourney {
+    max-width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(90deg,#73618d,#18aeb6);
+    text-align: center
+}
+
+.myjourney__heading {
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+    position: relative
+}
+
+.myjourney__heading:after {
+    content: "";
+    height: 2px;
+    width: 25%;
+    background: #2d1a3a;
+    position: absolute;
+    left: 40%;
+    bottom: -5px
+}
+
+.myjourney__centered {
+    display: flex;
+    justify-content: center
+}
+
+.myjourney__timeline {
+    padding: clamp(30px,5%,70px)
+}
+
+.myjourney__point {
+    position: relative;
+    display: grid;
+    vertical-align: top;
+    margin-bottom: 30px
+}
+
+.myjourney__icon {
+    position: relative;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background: #3498db;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+    border-radius: 50%;
+    float: left
+}
+
+.myjourney__date {
+    width: 210px;
+    text-align: right;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    font-weight: 300;
+    color: #fff
+}
+
+.myjourney__content {
+    margin-left: 50px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+    padding: 15px;
+    border-radius: 3px;
+    text-align: left
+}
+
+.myjourney__content h3 {
+    font-size: 23px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: left
+}
+
+.myjourney__content h4 {
+    font-size: 15px;
+    font-weight: 300;
+    color: #50575c;
+    margin: 2px 0 8px
+}
+
+.myjourney__content li {
+    list-style-type: square;
+    color: #74808a;
+    font-size: 1em;
+    line-height: 25px;
+    margin-left: 15px
+}

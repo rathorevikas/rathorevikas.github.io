@@ -1,0 +1,16 @@
+.footer {
+    min-height: 50px;
+    background-image: linear-gradient(90deg,#3c3b3f,#605c3c)
+}
+
+.footer__glass {
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0,0,0,.5058823529411764)
+}
+
+.footer__p {
+    color: #ececec;
+    text-align: center;
+    padding-top: 8px
+}

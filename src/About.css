@@ -1,0 +1,222 @@
+.about {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    text-align: center;
+    padding: 5px;
+    background-image: linear-gradient(90deg,#8a2be2,#ef5992)
+}
+
+.about__heading {
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+    position: relative
+}
+
+.about__heading:after {
+    content: "";
+    height: 2px;
+    width: 25%;
+    background: #2d1a3a;
+    position: absolute;
+    left: 40%;
+    bottom: -5px
+}
+
+.about__centered {
+    align-content: center;
+    margin-top: 100px
+}
+
+.about__centered,.about__container {
+    display: flex;
+    justify-content: center
+}
+
+.about__container {
+    align-items: center;
+    background-color: rgba(29,29,29,.253);
+    border-radius: 5px;
+    width: 50%;
+    height: auto
+}
+
+.about__container,.about__image img {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)
+}
+
+.about__image img {
+    margin: 45px;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    border: 10px solid rgba(199,234,253,.32941176470588235);
+    border-image-slice: 1
+}
+
+.about__info {
+    padding: 30px;
+    color: #fff;
+    text-align: left;
+    overflow: visible
+}
+
+.about__info h2 {
+    font-size: 30px
+}
+
+.about__info p {
+    font-size: 18px;
+    margin-top: 20px
+}
+
+.about__info ul {
+    padding: 30px
+}
+
+.about__info ul li {
+    padding: 5px
+}
+
+.about__smallpara {
+    text-align: center;
+    padding-top: clamp(50px,5%,150px);
+    color: #fff;
+    font-size: 20px
+}
+
+.about__symbol {
+    position: relative;
+    -webkit-animation-name: symbolDown;
+    animation-name: symbolDown;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.about__symbolDown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 50px;
+    cursor: pointer;
+    padding-bottom: 35px
+}
+
+@media screen and (max-width: 1370px) {
+    .about {
+        padding:5px 100px 0
+    }
+
+    .about__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(29,29,29,.253);
+        border-radius: 5px;
+        width: 100%;
+        height: 700px
+    }
+
+    .about__container,.about__image img {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)
+    }
+
+    .about__image img {
+        margin: 45px;
+        border-radius: 10px;
+        width: 200px;
+        height: 300px;
+        border: 10px solid rgba(199,234,253,.32941176470588235);
+        border-image-slice: 1
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about {
+        padding:5px 80px 0;
+        width: 100%;
+        background-image: linear-gradient(90deg,#8a2be2,#ef5992)
+    }
+
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(29,29,29,.253);
+        border-radius: 5px;
+        width: 100%;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content
+    }
+
+    .about__container,.about__image img {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)
+    }
+
+    .about__image img {
+        margin: 45px;
+        border-radius: 10px;
+        width: 200px;
+        height: 300px;
+        border: 10px solid rgba(199,234,253,.32941176470588235);
+        border-image-slice: 1
+    }
+
+    .about__info {
+        padding: 20px;
+        color: #fff;
+        overflow: visible
+    }
+
+    .about__info h2 {
+        font-size: 25px
+    }
+
+    .about__info p {
+        font-size: 15px;
+        margin-top: 20px
+    }
+
+    .about__info ul {
+        padding: 20px
+    }
+
+    .about__info ul li {
+        padding: 3px
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .about {
+        padding:5px 30px 0;
+        width: 100%;
+        background-image: linear-gradient(90deg,#8a2be2,#ef5992)
+    }
+
+    .about__centered {
+        margin-top: 70px
+    }
+
+    .about__image img {
+        margin: 45px;
+        border-radius: 10px;
+        width: 180px;
+        height: 250px;
+        border: 10px solid rgba(199,234,253,.32941176470588235);
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+        border-image-slice: 1
+    }
+
+    .about__smallpara {
+        text-align: center;
+        padding-top: clamp(50px,5%,150px);
+        color: #fff;
+        font-size: 15px
+    }
+}

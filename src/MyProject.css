@@ -1,0 +1,53 @@
+.myproject {
+    max-width: 100vw;
+    min-height: 40vh;
+    padding-top: 10px;
+    text-align: center;
+    background-image: linear-gradient(90deg,#3e5151,#decba4)
+}
+
+.myproject__heading {
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+    position: relative
+}
+
+.myproject__heading:after {
+    content: "";
+    height: 2px;
+    width: 25%;
+    background: #2d1a3a;
+    position: absolute;
+    left: 40%;
+    bottom: -5px
+}
+
+.myproject__centered {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.myproject__content img {
+    margin: 30px 10px 10px;
+    max-width: 12rem;
+    min-height: 10rem;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)
+}
+
+.myproject__content h3 {
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 20px
+}
+
+@media screen and (max-width: 500px) {
+    .myproject__centered {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+}
